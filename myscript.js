@@ -1,7 +1,7 @@
 $(document).ready(function(){
   
-  $("#Q1").click(function(){
-		$("#A1").fadeToggle();
+  $("#Q1B").click(function(){
+		$("#A1D").fadeToggle();
 	});
 
 });
