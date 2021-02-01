@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  $("#Q1B").click(function(){
+ $("#Q1B").click(function(){
 		$("#A1D").fadeToggle();
 	});
  $("#Q2B").click(function(){
