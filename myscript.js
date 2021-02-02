@@ -4,7 +4,42 @@ $(document).ready(function(){
   $("#A3D").hide();
   $("#A4D").hide();
   $("#A5D").hide();
-  var pg=0;	
+  $("#Q1E").hide();
+  $("#Q2E").hide();
+  $("#Q3E").hide();
+  $("#Q4E").hide();
+  $("#Q5E").hide();
+  var pg=0;
+  if(pg=0)
+  {
+  $("#Q1E").show();  
+  }
+   if(pg=1)
+  {
+  $("#Q1E").hide();
+  $("#Q2E").show();
+  }
+  if(pg=2)
+  {
+  $("#Q2E").hide();
+  $("#Q3E").show();
+  }
+  if(pg=3)
+  {
+  $("#Q3E").hide();
+  $("#Q4E").show();
+  }
+  if(pg=4)
+  {
+  $("#Q4E").hide();
+  $("#Q5E").show();
+  }
+  if(pg>4)
+  {
+  pg=0;
+  }
+	
+	
 
  $("#Q1B").click(function(){
 		$("#A1D").fadeToggle();
