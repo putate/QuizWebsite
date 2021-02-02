@@ -19,3 +19,9 @@ button {
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
+.Q5_pic
+{
+  width: 50%;
+  height: 50%;
+}
