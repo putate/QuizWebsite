@@ -8,7 +8,7 @@ $(document).ready(function(){
   //$("#Q3E").hide();
   //$("#Q4E").hide();
   //$("#Q5E").hide();
-  //var pg=0;
+   var pg=0;
    //if(pg=1)
   //{
   //$("#Q1E").hide();
