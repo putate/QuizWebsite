@@ -4,16 +4,11 @@ $(document).ready(function(){
   $("#A3D").hide();
   $("#A4D").hide();
   $("#A5D").hide();
-  //$("#Q1E").hide();
   //$("#Q2E").hide();
   //$("#Q3E").hide();
   //$("#Q4E").hide();
   //$("#Q5E").hide();
   //var pg=0;
-  //if(pg=0)
-  //{
-  //$("#Q1E").show();  
-  //}
    //if(pg=1)
   //{
   //$("#Q1E").hide();
