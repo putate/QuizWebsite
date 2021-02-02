@@ -1,5 +1,9 @@
 $(document).ready(function(){
-  
+  $("#A1D").fadeOut();
+  $("#A2D").fadeOut();
+  $("#A3D").fadeOut();
+  $("#A4D").fadeOut();
+  $("#A5D").fadeOut();
  $("#Q1B").click(function(){
 		$("#A1D").fadeToggle();
 	});
