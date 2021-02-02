@@ -4,6 +4,8 @@ $(document).ready(function(){
   $("#A3D").hide();
   $("#A4D").hide();
   $("#A5D").hide();
+  var pg=0;	
+
  $("#Q1B").click(function(){
 		$("#A1D").fadeToggle();
 	});
@@ -19,6 +21,9 @@ $(document).ready(function(){
  $("#Q5B").click(function(){
 		$("#A5D").fadeToggle();
 	});
+ $("#Q6B").click(function(){
+		pg++;
+	});	
 
 
 });
